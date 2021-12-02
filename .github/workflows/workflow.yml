@@ -16,7 +16,7 @@ jobs:
           run: npm build
 
         - name: Deploy
-          uses: billhstan/react-bootstrap-tutorial@master
+          uses: billhstan/react-bootstrap-tutorial
           with:
             folder: build
             bucket: ${{ secrets.AWS_S3_BUCKET }}
