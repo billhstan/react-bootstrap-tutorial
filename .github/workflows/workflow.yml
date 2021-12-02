@@ -12,7 +12,7 @@ jobs:
       matrix:
         node-version: [15.x]
     steps:
-      -uses: actions/experiment
-      -run: npm install
-      -run: npm run build
-      -run: npm test
+      - uses: actions/experiment
+      - run: npm install
+      - run: npm run build
+      - run: npm test
