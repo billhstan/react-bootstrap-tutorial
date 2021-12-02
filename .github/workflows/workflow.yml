@@ -16,7 +16,7 @@ jobs:
           run: npm build
 
         - name: Deploy
-          uses: billhstan/react-bootstrap-tutorial
+          uses: billhstan/react-bootstrap-tutorial@master
 
           with:
             folder: build
