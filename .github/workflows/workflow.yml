@@ -10,14 +10,14 @@ jobs:
     
     strategy:
       matrix:
-        node-version: [8.x, 10.x, 12.x]
+        node-version: '15'
         
     steps:
     - uses: actions/checkout@v1
     - name: Use Node.js 15.x
       uses: actions/setup-node@v1
       with:
-        node-version: [8.x, 10.x, 12.x]
+        node-version: '15'
     - name: Yarn Install
       run: |
         yarn install
