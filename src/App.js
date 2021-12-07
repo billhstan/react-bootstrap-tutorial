@@ -30,7 +30,7 @@ function App() {
     <div className="App">
       <header className="App-header">
 
-        <Alert variant="primary">This is a Button</Alert>
+        <Alert variant="primary">This is Ah Tan button</Alert>
         <Button>Experiment by using a button first</Button>
         <Form className='row mt-2 col-6' onSubmit={handleSubmit}>
           <Form.Group className="row mt-2">
